@@ -10,4 +10,6 @@ public interface GameService {
     List<GameMinDTO> findAll();
 
     GameDTO findByid(Long gameId);
+
+    List<GameMinDTO> findByList(Long listId);
 }

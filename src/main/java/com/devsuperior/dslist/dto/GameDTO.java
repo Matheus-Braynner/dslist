@@ -2,10 +2,8 @@ package com.devsuperior.dslist.dto;
 
 import com.devsuperior.dslist.entities.Game;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.BeanUtils;
-import org.springframework.data.repository.NoRepositoryBean;
 
 @NoArgsConstructor
 @Data

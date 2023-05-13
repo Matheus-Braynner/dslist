@@ -3,7 +3,6 @@ package com.devsuperior.dslist.services;
 import com.devsuperior.dslist.dto.GameListDTO;
 import com.devsuperior.dslist.entities.GameList;
 import com.devsuperior.dslist.repositories.GameListRepository;
-import com.devsuperior.dslist.services.exceptions.ResourceNotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
