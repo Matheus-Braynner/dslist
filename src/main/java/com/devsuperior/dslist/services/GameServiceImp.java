@@ -32,7 +32,7 @@ public class GameServiceImp implements GameService {
     @Transactional(readOnly = true)
     public GameDTO findByid(Long gameId) {
         Game result = gameRepository.findById(gameId)
-                .orElseThrow(() -> new ResourceNotFoundException("Game with id= " + gameId + "was not found in our database"));
+                .orElseThrow(() -> new ResourceNotFoundException("Game with id= " + gameId + " was not found in our database"));
         return mapper.map(result, GameDTO.class);
     }
 }
